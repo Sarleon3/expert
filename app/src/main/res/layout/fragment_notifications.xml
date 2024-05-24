@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="50dp"
+                android:text="Заказать услугу" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:textColor="@color/text"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="почта" />
+
+            <EditText
+                android:id="@+id/Emailf"
+                android:textColor="@color/text"
+                android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/input"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="your.Email@Gmail.com"
+                android:textColorHint="@color/text_in_textbox" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:textColor="@color/text"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="номер телефона" />
+
+            <EditText
+                android:id="@+id/phonef"
+                android:textColor="@color/text"
+                android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/input"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="11"
+                android:inputType="number"
+                android:hint="8 (000) 000 00 00"
+                android:textColorHint="@color/text_in_textbox" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:textColor="@color/text"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="название продукта" />
+
+            <EditText
+                android:id="@+id/Namef"
+                android:textColor="@color/text"
+                android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/input"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Пылесос вертикальный Starwind SCH1012 голубой"
+                android:textColorHint="@color/text_in_textbox"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Адрес магазина где вы приобрели товар"
+                android:textColor="@color/text" />
+
+            <EditText
+                android:id="@+id/Adresf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:hint="Московская область, город Москва, бульвар Чехова, 83"
+                android:textColorHint="@color/text_in_textbox"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:textColor="@color/text"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="тип товара" />
+
+            <Spinner
+                android:id="@+id/Type"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/input"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:textColor="@color/text"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="примечание" />
+
+            <EditText
+                android:id="@+id/Markf"
+                android:layout_width="match_parent"
+                android:gravity="top"
+                android:padding="10dp"
+                android:layout_height="117dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/mark"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="опешите что случилось с вашим товаром"
+                android:textColorHint="@color/text_in_textbox"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="20dp"
+                android:text="Цена"
+                android:textColor="@color/text" />
+
+            <Button
+                android:id="@+id/btnf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:onClick="Onclik"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button"
+                android:text="Отправить"
+                android:textColor="@color/text" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

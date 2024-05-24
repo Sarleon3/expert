@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_user">user</string>
+    <string-array name="type">
+        <item>Другое</item>
+        <item>Одежда</item>
+        <item>Постельное и столовое бельё, ткань</item>
+        <item>Головные уборы</item>
+        <item>Трикотажноя продукция</item>
+        <item>Обувь</item>
+        <item>Канцелярские товаровы</item>
+        <item>Галантерейноя продукция</item>
+        <item>Хозяйственные товары</item>
+        <item>Псуда</item>
+        <item>Электротовары</item>
+        <item>Игрушки</item>
+        <item>Бытовая химия</item>
+    </string-array>
+    <string-array name="prise">
+        <item>Стоимость услуги 3000 ₽</item>
+        <item>Стоимость услуги 4400 ₽</item>
+        <item>Стоимость услуги 3500 ₽</item>
+        <item>Стоимость услуги 3500 ₽</item>
+        <item>Стоимость услуги 3000 ₽</item>
+        <item>Стоимость услуги 3500 ₽</item>
+        <item>Стоимость услуги 3700 ₽</item>
+        <item>Стоимость услуги 3400 ₽</item>
+        <item>Стоимость услуги 3100 ₽</item>
+        <item>Стоимость услуги 4400 ₽</item>
+        <item>Стоимость услуги 3500 ₽</item>
+        <item>Стоимость услуги 3500 ₽</item>
+        <item>Стоимость услуги 3600 ₽</item>
+    </string-array>
+</resources>
