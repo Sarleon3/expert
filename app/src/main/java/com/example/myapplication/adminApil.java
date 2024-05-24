@@ -52,16 +52,7 @@ public class adminApil extends AppCompatActivity {
             return insets;
         });
         mDatabase = FirebaseDatabase.getInstance("https://expert-b499b-default-rtdb.europe-west1.firebasedatabase.app/").getReference(expert);
-        Type = findViewById(R.id.Type);
-        Prise = findViewById(R.id.price);
-        Mail = findViewById(R.id.Emailf);
-        Phone = findViewById(R.id.phonef);
-        Name = findViewById(R.id.Namef);
-        Adres = findViewById(R.id.Adresf);
-        Mark = findViewById(R.id.Markf);
-        tagss = findViewById(R.id.tagsf);
-        marking = findViewById(R.id.Marking);
-        btn = findViewById(R.id.btnf);
+        init();
         get();
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,5 +89,17 @@ public class adminApil extends AppCompatActivity {
     public void end(View v){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+    }
+    public void init() {
+        Type = findViewById(R.id.Type);
+        Prise = findViewById(R.id.price);
+        Mail = findViewById(R.id.Emailf);
+        Phone = findViewById(R.id.phonef);
+        Name = findViewById(R.id.Namef);
+        Adres = findViewById(R.id.Adresf);
+        Mark = findViewById(R.id.Markf);
+        tagss = findViewById(R.id.tagsf);
+        marking = findViewById(R.id.Marking);
+        btn = findViewById(R.id.btnf);
     }
 }
