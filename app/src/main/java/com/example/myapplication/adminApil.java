@@ -91,6 +91,7 @@ public class adminApil extends AppCompatActivity {
         startActivity(intent);
     }
     public void init() {
+
         Type = findViewById(R.id.Type);
         Prise = findViewById(R.id.price);
         Mail = findViewById(R.id.Emailf);
